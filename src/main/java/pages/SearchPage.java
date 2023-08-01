@@ -8,4 +8,9 @@ public class SearchPage extends TestBase{
 		
 		System.out.println("Search Page");
 	}
+
+public void searchGoogle(){
+
+	System.out.println("Search Google");
+	}
 }
