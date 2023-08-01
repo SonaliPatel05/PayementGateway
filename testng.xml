@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Best-Buy Website Testing">
+	
+	<!--<listeners>
+		<listener class-name="tests.ExtentReportListener"/>
+	</listeners>-->
+	
+  <test name="Best-Buy Application Testcases">
+    <classes>
+    
+      <class name="test.HomeTest"/>
+      <class name="test.PaymentTest"/>
+      <class name="test.CreditCardTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
